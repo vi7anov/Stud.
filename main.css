@@ -1,6 +1,31 @@
 body{
   width: 700px;
   margin: 20px auto;
-  background: #999;
+  padding: 20px 20px 0px 0px;
+  background: #37b4de;
   border: 1px solid #bbb;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 10px 10px 8px #000;
+  -webkit-box-shadow: 10px 10px 8px #000;
+  box-shadow: 10px 10px 8px #000;
+}
+html{
+  background: #333;
+}
+ ul li {
+   height : 190px; 
+   width : 190px;
+   background : #ede977;
+   margin :  0px 0px 20px 20px;
+   padding : 10px;
+   float: left;
+ } ul:after {
+   display: block;
+   content: " ";
+   clear: both;
+   line-height: 0;
+ }
+ ul li h2{
+  font-size:22px;
 }
