@@ -21,6 +21,7 @@ html{
    padding : 10px;
    float: left;
    font-family : "Reenie Beanie";
+   font-size :  20px;
  } ul:after {
    display: block;
    content: " ";
@@ -28,5 +29,5 @@ html{
    line-height: 0;
  }
  ul li h2{
-  font-size:22px;
+  font-size:40px;
 }
