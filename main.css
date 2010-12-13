@@ -22,7 +22,8 @@ html{
    float: left;
    font-family : "Reenie Beanie";
    font-size :  20px;
- } ul:after {
+ }
+ .clear, ul:after {
    display: block;
    content: " ";
    clear: both;
@@ -42,4 +43,32 @@ ul li:hover{
   z-index : 100;
   -moz-box-shadow : 0 0 25px#000;
 }
+nav {
+  height:70px;
+  border-bottom:#bbb;
+  position: relative;
+  width: 600px;
+  margin: auto;
+}
+#add-new,
+#filter {
+  position:absolute;
+  top:10px;
+}
+#filter{
+  right: 0;
+}
+#add-new{
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background:#777;
+  color:#f0f0f0;
+  text-decoration: none;
+}
+
+
+
+
+
+
 
