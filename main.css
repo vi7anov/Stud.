@@ -65,7 +65,11 @@ nav {
   color:#f0f0f0;
   text-decoration: none;
 }
+#add-new-form  form input[name="title"] { 
 
+  background:red;
+  
+}
 
 
 
